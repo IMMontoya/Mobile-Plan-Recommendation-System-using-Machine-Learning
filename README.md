@@ -8,6 +8,35 @@ The primary objective is to create a classification model that can accurately re
 
 This notebook will explore and test three different machine learning models (DecisionTreeClassifier, RandomForestClassifier, and LogisticRegression) with varying hyperparameters to determine the best model that meets Megaline's requirements.  
 
+## Dataset
+
+This project utilizes a dataset containing monthly behavioral information about subscribers of Megaline, a mobile carrier. The dataset includes the following features for each user:
+
+- **calls**: Number of calls made.
+- **minutes**: Total duration of calls in minutes.
+- **messages**: Number of text messages sent.
+- **mb_used**: Internet traffic used in megabytes.
+- **is_ultra**: Indicator of the plan for the current month (1 for Ultra, 0 for Smart).
+
+### Data Source
+
+The data file, named `users_behavior.csv`, provides insights into user behavior and their respective mobile plans.
+
+### Data Preparation
+
+- **No missing values**: The dataset is complete with no missing values.
+- **Class imbalance**: The dataset exhibits a class imbalance, with approximately 30% of users on the Ultra plan and 70% on the Smart plan. This imbalance is managed during the model training process using class weighting.
+
+### Data Splitting
+
+The dataset is divided into three subsets to facilitate model training and evaluation:
+
+- **Training set**: 60% of the data, used for training the models.
+- **Validation set**: 20% of the data, used for tuning model hyperparameters.
+- **Test set**: 20% of the data, used for evaluating the final model performance.
+
+This structured approach ensures a comprehensive analysis and accurate model development based on user behavior data.
+
 ## Installation
 
 To run this project, you will need to have [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) installed on your machine. Follow the instructions below to set up the environment:
