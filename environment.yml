@@ -1,4 +1,4 @@
-name: /Volumes/T7/Coding_Files/TripleTen Data Science/Sprint 7/Project/.conda
+name: .conda
 channels:
   - defaults
   - conda-forge
