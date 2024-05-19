@@ -8,6 +8,8 @@ The primary objective is to create a classification model that can accurately re
 
 This notebook will explore and test three different machine learning models (DecisionTreeClassifier, RandomForestClassifier, and LogisticRegression) with varying hyperparameters to determine the best model that meets Megaline's requirements.  
 
+[Jupyter Notebook](EDA.ipynb)
+
 ## Dataset
 
 This project utilizes a dataset containing monthly behavioral information about subscribers of Megaline, a mobile carrier. The dataset includes the following features for each user:
