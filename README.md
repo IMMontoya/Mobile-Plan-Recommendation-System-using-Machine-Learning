@@ -65,7 +65,7 @@ Three different machine learning models were tested:
 
 - **Description**: A linear model used for binary classification that estimates probabilities using the logistic function.
 - **Tuning**: Regularization and other hyperparameters were adjusted to achieve the best results.
-- **Performance**: Provided a baseline for comparison, with a simpler and faster training process, accuracy of only 74.81%.
+- **Performance**: Provided a baseline for comparison, with a simpler and faster training process, accuracy of only 74.81%.  
 ![Logistic Regression](/images/LogisticRegression.png)
 
 ## Results
