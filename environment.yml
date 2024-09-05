@@ -188,4 +188,3 @@ dependencies:
   - zeromq=4.3.5=h313beb8_0
   - zlib=1.2.13=h18a0788_1
   - zstd=1.5.5=hd90d995_2
-prefix: /Volumes/T7/Coding_Files/TripleTen Data Science/Sprint 7/Project/.conda
